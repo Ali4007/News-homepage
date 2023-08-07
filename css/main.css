@@ -1,0 +1,104 @@
+*{
+    scroll-behavior: smooth;
+    font-family: "Inter", sans-serif;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow:none 0 0 0 var(--bs-navbar-toggler-focus-width);
+}
+.navbar-nav :hover{
+color:#e83e8c;
+}
+h3{
+    color:black;
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+p{
+    color:hsl(237, 8%, 54%);
+
+    
+    font-size: 20px;
+}
+.bu{
+    
+    background-color: hsl(5, 85%, 63%);
+    padding: 8px 30px;
+    text-transform: capitalize;
+    color: hsl(36, 100%, 99%);
+    letter-spacing: 4px;
+   border: none;
+   margin-bottom : 30px ;
+   
+
+}
+.bu:hover{
+    background-color: black;
+}
+.col-lg-4{
+    background-color: hsl(240, 100%, 5%);
+    color: hsl(233, 8%, 79%);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+h1{
+    color: hsl(35, 77%, 62%);
+    font-weight: 800;
+}
+a{ 
+    text-decoration: none;
+}
+a h5{
+    color: hsl(36, 100%, 99%);
+    font-weight: 700;
+}
+hr{
+    color:aliceblue;
+}
+a h5:hover{
+    color:  hsl(35, 77%, 62%);
+}
+.row mt-5{
+    background-color: white;
+}
+span{
+    color: hsl(233, 8%, 79%);
+    font-size: 32px;
+    font-weight: 700;
+}
+.col-8 a{
+text-decoration: none;
+}
+a h6{
+    color: hsl(240, 100%, 5%);
+    font-weight: 800;
+}
+a h6:hover{
+color:#e83e8c;
+}
+.hoo{
+    background-color: white;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.attribution a{
+    text-decoration:none ;
+    color: hsl(228, 45%, 44%);
+    font-weight: 700;
+}
+
+
+@media (min-width: 992px){
+ .nav-link {
+    margin-left: 20px;
+ }
+ .navbar-expand-lg {
+    margin-bottom: 30px;}
+
+}
